@@ -3,6 +3,10 @@ Experimenting with nix flake usage of [cargo-script-mvs](https://github.com/epag
 With nix flakes enabled, try this out:
 ```
 $ nix run github:danjl1100/cargo-script-mvs-flake#script
+your lucky number is 123456
+
+check out the built binary location:
+	/home/user/.cargo/eval/target/debug/script-src_e6236c1386202c2be07f7b530a4cea05329d3044752b65b0d6e67005bf14f0dc
 ```
 
 Or, more interestingly,
