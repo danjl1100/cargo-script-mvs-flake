@@ -41,6 +41,7 @@
       devShellPackages = [
         (rustToolchain pkgs)
         pkgs.bacon
+        pkgs.cargo-eval
       ];
     in {
       checks = removeAttrs pkgs.cargo-eval-crate.checks [
